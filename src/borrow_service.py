@@ -17,7 +17,7 @@ import threading
 import datetime
 
 # ---------------- 配置区 ----------------
-MAX_BORROW_LIMIT = 10   # R-003：每人最多可借图书数量（变更对象，见 CR-001）
+MAX_BORROW_LIMIT = 5    # R-003：每人最多可借图书数量（CR-001 变更：由 10 本调整为 5 本）
 OVERDUE_FINE_PER_DAY = 1.0  # 逾期罚金：每天 1 元（R-006 可选功能）
 
 
